@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="cell" wx:for="{{items}}" wx:for-item="item" wx:key="{{item.title}}">
+    <image src="{{item.image}}" class="item_img"></image>
+    <text>{{item.title}}</text>
+    <br/>
+    <text>价格: {{item.price}}</text>
+  </view>
+</view>

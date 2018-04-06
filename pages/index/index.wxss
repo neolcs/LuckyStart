@@ -1,0 +1,12 @@
+/**index.wxss**/
+.item_img{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.cell{
+  display: flex;
+  justify-content: flex-start;
+  height: 200rpx;
+  background: gray;
+}
